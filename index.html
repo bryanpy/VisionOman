@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Oman</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="header-body">
+        <h1 id="header-text">Vision Oman</h1>
+        <button class="header-buttons header-buttons-selected" onclick="window.location = 'index.html'">Home</button>
+        <button class="header-buttons" onclick="scrollToId('About')">About</button>
+        <button class="header-buttons" onclick="scrollToId('Resources')">Resources</button>
+        <button class="header-buttons" onclick="">Contact</button>
+    </div>
+    <div class="content-container" style="height:200px; background-image:url('./Assets/Background.jpg'); flex-direction: column; justify-content: center;">
+        <h1 class="text text-center" >Vision Oman 2040: Role of Science and Technology</h1>
+    </div>
+    <div class="content-container" style="background-color: var(--back-dark); align-items: center;">
+        <div class="content-text-container">
+            <h1 class="text text-center" style="margin-bottom:20px;">Vision</h1>
+            <p class="text text-left">
+                Oman Vision 2040 is the Sultanate's gateway to overcoming challenges, keeping pace with 
+                regional and global changes, generating and seizing opportunities to foster economic 
+                competitiveness and social well-being, stimulating growth, and building confidence 
+                in all economic, social and developmental relations nationwide.
+                <br><br>
+                An integrated Transport,Communications and Information technology ecosystem that propels 
+                economic diversification,innovation and welfare.
+            </h1>
+        </div>
+        <img class="content-images" src="./Assets/Economics.jpg" alt="Economics"  ">
+    </div>
+    <div class="content-container" style="background-color: var(--back); align-items: center;">
+        <img class="content-images content-images-dark" src="./Assets/Eco.jpg" alt="Eco"  ">
+        <div class="content-text-container">
+            <h1 class="text text-center" style="margin-bottom:20px;">Mission</h1>
+            <p class="text text-right">
+                Provide a sophisticated Transport, Communications and Information technology 
+                infrastructure that is secure and integrated with urban and economic development, 
+                which aligns with the requirements of sustainability and future in achieving Oman 2040 
+                vision.
+            </h1>
+        </div>
+    </div>
+    <div class="content-container" style="background-color: var(--back-dark); align-items: center;">
+        <div class="content-text-container">
+            <h1 class="text text-center" style="margin-bottom:20px;">Objectives</h1>
+            <ul class="text text-left" style="padding-right: 20px;">
+                <li>An infrastructure keeping up with changes and developments. </li>
+                <li>Sectors that empower the economic aspects & supportive business environments that help 
+                achieve economic diversification.</li>
+                <li>An efficient system able to empower national capacities aligned with labor market 
+                requirements.</li>
+                <li>Regulative environment & flexible legislation for sector governance.</li>
+                <li>Make the Logistics industry the second source of revenues for the total GDP by 2040.</li>
+            </ul>
+        </div>
+        <img class="content-images " src="./Assets/research.jpg" alt="research">
+    </div>
+    <div class="content-container" style="display: block;">
+        <h1 class="text text-center" style="font-size: 40px;">National Programs</h1>
+        <div id="grid-container">
+            <div class="grid-item">
+                <img src="./Assets/Images/online_payment.jpg" onclick="scrollToId('e-pay')">
+                <h1 style="font-size: 30px;">National e-Payment <br> Gateway</h1>
+            </div>
+            <div class="grid-item">
+                <img src="./Assets/Images/innovation-and-support.jpg" onclick="scrollToId('support')">
+                <h1 style="font-size: 30px;">Innovation and <br> Support Center</h1>
+            </div>
+            <div class="grid-item">
+                <img src="./Assets/Images/digital-capital.jpg" onclick="scrollToId('capital')">
+                <h1 style="font-size: 30px;">Muscat the Arab <br> digital capital</h1>
+            </div>
+            <div class="grid-item">
+                <img src="./Assets/Images/mobile-app.jpg" style="filter: invert();" onclick="scrollToId('capital')">
+                <h1 style="font-size: 30px;">Sas Center for <br> Mobile Applications</h1>
+            </div>
+        </div>
+        <div id="grid-container">
+            <div class="grid-item">
+                <img src="./Assets/Images/augmented-reality.jpg" onclick="scrollToId('capital')">
+                <h1 style="font-size: 30px;">Sas Center for <br> Virtual Reality</h1>
+            </div>
+            <div class="grid-item">
+                <img src="./Assets/Images/industrial-revolution.jpg" onclick="scrollToId('capital')"> 
+                <h1 style="font-size: 30px;">Sas Center for <br> 4th Industrial <br> Revolution</h1>
+            </div>
+            <div class="grid-item">
+                <img src="./Assets/Images/etendering.png" onclick="scrollToId('capital')">
+                <h1 style="font-size: 30px;">e-Tendering</h1>
+            </div>
+            <div class="grid-item">
+                <img src="./Assets/Images/community-centred-knowledge.png" style="filter: invert();" onclick="scrollToId('capital')">
+                <h1 style="font-size: 28px;">Community Knowledge <br> Centers</h1>
+            </div>
+        </div>
+    </div>
+    <div class="content-container" style="display: block; background-color: var(--back-dark);">
+        <h1 class="text" id="e-pay">National e-Payment Gateway</h1>
+        <p class="text">The National ePayment Gateway (ePG) provides an operational component of the eGovernance infrastructure and full eCommerce facilities that allow secure online payments (ePayments). The ePayment Gateway supports multiple acquiring banks and will operate as a critical shared service within the eGovernance architecture along with Oman’s forthcoming Government eServices Portal.</p>
+        <h1 class="text" style="padding-top: 30px;" id="support">Innovation and Support Center</h1>
+        <p class="text" >The Innovation and Support Center is managed by highly trained and qualified professional Omanis, not only to keep pace with global development in the provision of technical support services but also to lead this development. Over the past years, the center has proved its ability to lead the development in the areas of hosting, consultancy, project management services and technical support at global levels.</p>
+        <h1 class="text" style="padding-top: 30px;" id="capital">Muscat the Arab digital capital 2022</h1>
+        <p class="text" >Muscat won the title of The Digital capital 2022</p>
+        <h1 class="text" style="padding-top: 30px;">eTendering</h1>
+        <p class="text" >The primary goal of eTendering is to establish a centralized state of the art procurement management system & processes. This will help in achieving higher efficiency and enhance transparency and accuracy in government procurement processes with considerable cost-savings. eTendering makes it possible for government entities to prepare, float, evaluate and award tenders online.</p>
+        <h1 class="text" style="padding-top: 30px;">Community Knowledge Centers</h1>
+        <p class="text">CKCs are one of the most important initiatives to which the e.oman Strategy has accorded great attention with a view to enabling the individuals of the society to reach broader horizons in the area of information technology. The overall aim of these Centers is to help bridge the digital gap among citizens .</p>
+        <h1 class="text" style="padding-top: 30px;">Sas Center for Virtual Reality</h1>
+        <p class="text">Sas Center for Virtual Reality (Sas.VR) was  established in 2014 to be a regional center that provides the infrastructure needed for developing virtual reality applications and multimedia content. It also works to feed the local and regional market with People specialized in this field by providing training to Omani talented people and encouraging them to be entrepreneurs.</p>
+        <h1 class="text" style="padding-top: 30px;">Sas Center for Mobile Applications Development</h1>
+        <p class="text">Sas Center for Mobile Applications Development aims to provide a quality platform and industry cluster to build and enhance the national development skills, talents and capacity required to develop ideas into commercially sustainable mobile applications and businesses.</p>
+        <h1 class="text" style="padding-top: 30px;">Sas Center for 4th Industrial Revolution</h1>
+        <p class="text">Believing in the importance of emerging technologies, specifically the technologies of the 4th IR such as artificial intelligence and internet of things in moving and accelerating the growth of various economic sectors, MTCIT has established Sas Center for 4 Industrial Revolution in the year (2020).</p>
+    </div>
+    <div class="content-container" id="About" style="display: flex; background-color: var(--back); flex-direction: column;">
+        <h1 class="text text-center" style="font-size: 40px;" id="Resources">Ministry of Transport, Communications and Information Technology</h1>
+        <p class="text">
+            <br>
+            The Ministry of Transport, Communications and Information Technology is the governmental body in the Sultanate of Oman responsible for all matters relating to infrastructure, including airports and ports, transport, logistics, communications, and information technology. The Ministry was established 15th October 2019 assuming responsibilities from a defunct government body Information Technology Authority.
+            <br><br>
+            The Ministry is also responsible for introducing and executing E-Government strategy in the Sultanate of Oman.
+            
+            
+            <br><br>
+            Directorates and other centers within The Ministry of Transport, Communications and Information Technology:
+        </p>
+        <ul>
+            <li class="text">The Directorate General of Policies & Governance</li>
+            <li class="text">The Directorate General of Infrastructure and Digital Platforms</li>
+            <li class="text">The Directorate General of Sector stimulation and Future skills</li>
+            <li class="text">The Directorate General of Digital transformation and Sectors empowerment</li>
+            <li class="text">The National Center for Space and Advance Technology</li>
+        </ul>
+        <br><br>
+        <img class="content-images" src="./Assets/Eng-Said-bin-Hamoud-bin-Said-Almaawali-200x273 (1).jpg" style="width: 300px;"  alt="Said-bin-Hamoud-bin-Said-Almaawali" >
+    </div>
+    <div class="content-container" style="background-color: var(--back-dark); justify-content: center; flex-direction: column;">
+        <h1 class="text text-center" style="font-size: 40px;" id="Resources">Contact</h1>
+        <h1 class="text">Websites</h1>
+        <a href="https://www.mtcit.gov.om/ITAPortal_AR/ITA/default.aspx"><h3 class="text">https://www.mtcit.gov.om/ITAPortal_AR/ITA/default.aspx</h3></a>
+        <a href="https://isfu.gov.om/2040/Vision_Documents_En.pdf"><h3 class="text">https://isfu.gov.om/2040/Vision_Documents_En.pdf</h3></a>
+        <a href="https://www.mtcit.gov.om/ITAPortal/About/CIO.aspx"><h3 class="text">https://www.mtcit.gov.om/ITAPortal/About/CIO.aspx</h3></a>
+    </div>
+    <div class="content-container" style="display: block; background-color: var(--back);">
+        <h1 class="text text-center" style="font-size: 40px;" id="Resources">Resources</h1>
+        <p class="text"> 
+            isfu.gov.om: <a href="https://isfu.gov.om/2040/Vision_Documents_En.pdf">https://isfu.gov.om/2040/Vision_Documents_En.pdf</a> <br>
+            <br>
+            oman2040.om: <a href="https://www.oman2040.om/">https://www.oman2040.om/</a><br>
+            <br>
+            business.hsbc: <a href="www.business.hsbc.co.om">www.business.hsbc.co.om</a>
+        </p>
+    </div>
+</body>
+</html>
